@@ -12,11 +12,49 @@ body{
 
 .titulo {
   margin-left: 20px; 
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
+  font-family:  "REM", sans-serif;
+  font-weight: 800;
   font-style: normal;
 
 }
 .header-link {
   margin-right: 30px;
+}
+
+.hero{
+  width: 100%;
+  height: 500px;
+  background-image: url("https://akataku.com/wp-content/uploads/2019/06/20180123184807-1024x538.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero-body p {
+    margin: 0;
+    line-height: 1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+    font-size: large;
+}
+
+.hero-body h2 {
+    margin: 0;
+    line-height: 1.5;
+    font-family:  "REM", sans-serif;
+    font-size: xx-large
+}
+
+.hero-body {
+  margin-left: 50px;
+}
+
+.button-hero{
+  margin-top: 15px;
+  background-color: blueviolet;
+  padding: 10px 25px;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid blueviolet;
 }
