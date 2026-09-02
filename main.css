@@ -1,6 +1,10 @@
 body{
   margin: 0px;
 }
+
+h2 {
+  font-size: 4rem;
+}
 .header {
   background-color: blueviolet;
   height: 100px;
@@ -66,7 +70,37 @@ body{
 .seccion-nosotros{
   background-color: blue;
   display: flex;
+  width: 100%;
+  height: 20rem;
 }
+
+.texto{
+  background-color: bisque;
+  width: 50%;
+  padding: 15px;
+
+}
+.Logo-empresa{
+  background-color: aqua;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor{
+  background-color: palevioletred;
+  width: 300px;
+  height: 300px;
+ 
+}
+
+.Logo-empresa img{
+  width: 10rem;
+  height: 15rem;
+}
+
+
 
 .Productos{
   background-color: lightslategrey;
@@ -136,3 +170,23 @@ body{
   height: auto;       
 }
 
+@media (max-width: 400px) {
+  .pie {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;   
+    height: auto;
+  }
+
+  .pie-colum-1,.pie-colum-2,.pie-colum-3 {
+    margin: 10px 0; 
+    text-align: center; 
+  }
+
+  .seccion-nosotros {
+    flex-direction: column;
+    height: auto;
+  }
+  .texto,.Logo-empresa{
+    width: auto;
+  }
+}
