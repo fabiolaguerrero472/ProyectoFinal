@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,25 +18,31 @@
                 <h1 class="titulo">Deko</h1>
             </span>      
         </header>
-        <div class="links">
-            <nav>
-                <a class="header-link" href="#">Inicio</a>
-                <a class="header-link" href="#">Nosotros</a>
-                <a class="header-link" href="#">productos</a>
-                <a class="header-link" href="#">contactos</a>
-            </nav>
-        
+         <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#empresa">Nosotros</a>
+                <a class="nav-link" href="#productos">Productos</a>
+                <a class="nav-link" href="#redes">Contactos</a>
+            </div>
+            </div>
         </div>
+        </nav>
 
     </div>
-    <div class="hero">
+    <div class="hero" id="inicio">
         <div class="hero-body">
             <h2 class="title">Lo nuevo de Deko</h2>
             <p class="subtitle">Nuevos diseños inspirados en TWICE</p>
             <button class="button-hero">Ver colección</button>
         </div>
     </div>
-    <div class="seccion-nosotros">
+    <div class="seccion-nosotros" id="empresa">
         <div class="texto">
             <h2>Nuestra Empresa</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos doloremque totam, laudantium perspiciatis deserunt, ipsam, necessitatibus aut recusandae itaque reiciendis? Sequi atque aliquid, nemo voluptate nobis dignissimos quod vitae, assumenda ullam iure odio vero possimus doloribus aliquam aperiam recusandae!</p>
@@ -46,7 +53,7 @@
             </div> 
         </div>
     </div>
-    <div class="Productos"> 
+    <div class="Productos" id="productos"> 
         <div class="seccion-1">
             <div class="tarjeta">
                 <h3>Playeras</h3>
@@ -80,7 +87,7 @@
             </div>  
         </div>
     </div>
-    <div class="contactos">
+    <div class="contactos" id="redes">
         <div class="card-contacto">
             <a href="https://www.instagram.com/" target="_blank">
                 <img src="instagram.png" alt="Instagram" style="width:40px; height:40px;">
@@ -141,5 +148,7 @@
             <img src="logo.png" alt="">
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
