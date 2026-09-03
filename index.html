@@ -4,24 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="header">
         <header>
             <span>
-                <h1>Deko</h1>
+                <h1 class="titulo">Deko</h1>
             </span>      
         </header>
-        <div clase="links">
-            <nav>
-                <a class="header-link" href="#">Link 1</a>
-                <a class="header-link" href="#">Link 2</a>
-                <a class="header-link" href="#">Link 3</a>
-            </nav>
-        
+         <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#empresa">Nosotros</a>
+                <a class="nav-link" href="#productos">Productos</a>
+                <a class="nav-link" href="#redes">Contactos</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+
+    </div>
+    <div class="hero" id="inicio">
+        <div class="hero-body">
+            <h2 class="title">Lo nuevo de Deko</h2>
+            <p class="subtitle">Nuevos diseños inspirados en TWICE</p>
+            <button class="button-hero">Ver colección</button>
         </div>
     </div>
-    
+    <div class="seccion-nosotros" id="empresa">
+        <div class="texto">
+            <h2>Nuestra Empresa</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos doloremque totam, laudantium perspiciatis deserunt, ipsam, necessitatibus aut recusandae itaque reiciendis? Sequi atque aliquid, nemo voluptate nobis dignissimos quod vitae, assumenda ullam iure odio vero possimus doloribus aliquam aperiam recusandae!</p>
+        </div>
+        <div class="Logo-empresa">
+            <div class="contenedor">
+                <img src="https://static.vecteezy.com/system/resources/previews/045/694/207/large_2x/shop-local-label-banner-design-vector.jpg" alt="">
+            </div> 
+        </div>
+    </div>
+    <h3 class="titulo-produ">Productos</h3>
+    <div class="Productos" id="productos"> 
+        <div class="seccion-1">
+            <div class="tarjeta">
+                <h3>Playeras</h3>
+                <div class="img-targeta">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_797618-MLM82783390940_032025-O.webp" alt="">
+                </div>
+                <a class="Catalago" href="https://wa.me/528122172872?text=Hola%20quiero%20solicitar%20el%20cat%C3%A1logo%20de%20playeras" target="_blank">
+                Solicitar Catálogo</a>
+            </div>
+            
+        </div>
+        <div class="seccion-2">
+            <div class="tarjeta">
+                <h3>Gorras</h3>
+                <div class="img-targeta">
+                    <img src="gorra.jpeg" alt="">
+                </div>
+                <a class="Catalago" href="https://wa.me/528122172872?text=Hola%20quiero%20solicitar%20el%20cat%C3%A1logo%20de%20gorras" target="_blank">
+                Solicitar Catálogo</a>
+            </div>
+            
+        </div>
+        <div class="seccion-3">
+            <div class="tarjeta">
+                <h3>Termos</h3>
+                <div class="img-targeta">
+                    <img src="https://tanoshii.pe/wp-content/uploads/2025/06/TWICE-03.jpg" alt="">
+                </div>
+                <a class="Catalago" href="https://wa.me/528122172872?text=Hola%20quiero%20solicitar%20el%20cat%C3%A1logo%20de%20termos" target="_blank">
+                Solicitar Catálogo</a>
+            </div>  
+        </div>
+    </div>
+    <div class="contactos" id="redes">
+        <div class="card-contacto">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="instagram.png" alt="Instagram" style="width:40px; height:40px;">
+            </a>
+        </div>
+        <div class="card-contacto">
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="tiktok.png" alt="Facebook" style="width:40px; height:40px;">
+            </a>
+        </div>
+
+        <div class="card-contacto">
+            <a href="https://wa.me/5218123456789?text=Hola%20quiero%20solicitar%20el%20cat%C3%A1logo" target="_blank">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/045/602/373/small_2x/whatsapp-icon-logo-transparent-background-free-png.png" alt="Facebook" style="width:40px; height:40px;">
+            </a>
+        </div>
+
+    </div>
+    <footer class="pie">
+        <div class="pie-colum-1">
+            <p class="ubicaciones">Ubicaciones</p>
+            <p>Av. Principal #123, Ciudad Apodaca</p>
+            <p>Sucursal Centro, Monterrey</p>
+            <p>Av. Tercera #230, Ciudad San Nicolas</p>
+            <p>Sucursal Norte, Monterrey</p>
+        </div>
+        <div class="pie-colum-2">
+            <table >
+                <tH class="horarios">Horarios</tH>
+                <tr>
+                    <td>lunes</td>
+                    <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                    <td>martes</td>
+                    <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                    <td>miercoles</td>
+                    <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>10:00 - 14:00</td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>10:00 - 14:00</td>
+                </tr>
+                <tFoot></tFoot>
+            </table>
+        </div>
+        <div class="pie-colum-3">
+            <img src="logo.png" alt="">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
