@@ -100,7 +100,13 @@ h2 {
   border-radius: 48%; 
 }
 
-
+.titulo-produ{
+  background-color: lightslategrey;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
 .Productos {
   background-color: lightslategrey;
   padding: 20px;
